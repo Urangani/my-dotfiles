@@ -39,6 +39,8 @@ alias opp='open ~'
 alias winepy5="wine $HOME/.mt5/drive_c/users/urangani/AppData/Local/Programs/Python/Python311/python.exe"
 alias to_clip="~/Scripts/clipboard.sh copy"
 alias from_clip="~/Scripts/clipboard.sh paste"
+alias lzg="lazygit"
+alias lzd="lazydocker"
 
 # Load user-defined aliases if available
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
