@@ -37,8 +37,8 @@ alias l='ls -CF'
 alias cls='clear'
 alias opp='open ~'
 alias winepy5="wine $HOME/.mt5/drive_c/users/urangani/AppData/Local/Programs/Python/Python311/python.exe"
-alias to_clip="~/Scripts/clipboard.sh copy"
-alias from_clip="~/Scripts/clipboard.sh paste"
+alias to_clip="~/bash-scripts/clip-board/clipboard.sh copy"
+alias from_clip="~/bash-scripts/clip-board/clipboard.sh paste"
 alias lzg="lazygit"
 alias lzd="lazydocker"
 
@@ -126,7 +126,7 @@ export PS1="\$(parse_python_env)\w  \$(parse_git_branch)\n  "
 . "$HOME/.cargo/env"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/Applications:$PATH"
-export PATH="$HOME/Scripts:$PATH"
+export PATH="$HOME/bash-scripts:$PATH"
 
 eval "$(zoxide init bash)"
 eval "$(fzf --bash)"
