@@ -3,7 +3,7 @@ return {
     "nvim-tree/nvim-tree.lua",
     dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
-	require("config.nvim-tree") -- call your config file
+        require("config.nvim-tree")
     end
 }
 

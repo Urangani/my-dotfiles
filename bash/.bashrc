@@ -41,7 +41,9 @@ alias to_clip="~/bash-scripts/clip-board/clipboard.sh copy"
 alias from_clip="~/bash-scripts/clip-board/clipboard.sh paste"
 alias lzg="lazygit"
 alias lzd="lazydocker"
-
+alias hd="herdr"
+alias ev="nvim ~/.bashrc"
+alias src="source ~/.bashrc && echo 'source successful'"
 # Load user-defined aliases if available
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
 
