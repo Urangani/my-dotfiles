@@ -44,6 +44,7 @@ alias lzd="lazydocker"
 alias hd="herdr"
 alias ev="nvim ~/.bashrc"
 alias src="source ~/.bashrc && echo 'source successful'"
+alias n="nvim"
 # Load user-defined aliases if available
 [ -f ~/.bash_aliases ] && . ~/.bash_aliases
 
@@ -135,3 +136,4 @@ eval "$(fzf --bash)"
 ## Export GO packages
 export PATH=$PATH:$(go env GOPATH)/bin
 
+source -- ~/.local/share/blesh/ble.sh
